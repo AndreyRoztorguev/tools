@@ -8,6 +8,7 @@ import RootLayout from "@/layouts/root";
 
 const router = createBrowserRouter([
   {
+    path: "tools", // do not change it's for github pages
     Component: RootLayout,
     children: [{ index: true, Component: Dashboard }],
     // path: "/",
