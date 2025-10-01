@@ -182,8 +182,18 @@ const data: Data = {
           ],
         },
         {
-          title: "IP Location",
-          url: "https://ipapi.co",
+          title: "Network",
+          url: "#",
+          items: [
+            {
+              title: "IP Location",
+              url: "https://ipapi.co",
+            },
+            {
+              title: "ifconfig",
+              url: "https://ifconfig.me",
+            },
+          ],
         },
         {
           title: "Screen Resolution",
@@ -200,6 +210,10 @@ const data: Data = {
         {
           title: "KeyCode",
           url: "https://www.toptal.com/developers/keycode",
+        },
+        {
+          title: "Glob Pattern",
+          url: "https://globster.xyz",
         },
       ],
     },
