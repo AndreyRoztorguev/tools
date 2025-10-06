@@ -71,6 +71,18 @@ const data: Data = {
           url: "https://excalidraw.com",
         },
         {
+          title: "Sketchboard",
+          url: "https://sketchboard.me",
+        },
+        {
+          title: "CodePen",
+          url: "https://codepen.io",
+        },
+        {
+          title: "Figma",
+          url: "https://www.figma.com",
+        },
+        {
           title: "Canva",
           url: "https://www.canva.com/",
         },
