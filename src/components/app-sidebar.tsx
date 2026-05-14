@@ -1,6 +1,7 @@
 import type { LucideIcon } from "lucide-react";
 import {
   BookOpen,
+  Bot,
   Box,
   Boxes,
   Cog,
@@ -150,6 +151,21 @@ const data: Data = {
           title: "CSS Can I Use",
           url: "https://caniuse.com",
         },
+      ],
+    },
+    {
+      title: "AI",
+      url: "#",
+      icon: Bot,
+      items: [
+        {
+          title: "Image/Video",
+          url: "https://sider.ai",
+        },
+        {
+          title: "Google Design",
+          url: "https://aistudio.google.com"
+        }
       ],
     },
     {
