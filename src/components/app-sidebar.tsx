@@ -4,6 +4,7 @@ import {
   Bot,
   Box,
   Boxes,
+  Building,
   Cog,
   Combine,
   Command,
@@ -151,6 +152,25 @@ const data: Data = {
           title: "CSS Can I Use",
           url: "https://caniuse.com",
         },
+      ],
+    },
+    {
+      title: "Business",
+      url: "#",
+      icon: Building,
+      items: [
+        {
+          title: "Emailing/Subscription",
+          url: "https://emailoctopus.com",
+        },
+        {
+          title: "Booking/Scheduling",
+          url: "https://calendly.com"
+        },
+        {
+          title: "Google AI Studio UI",
+          url: "https://aistudio.google.com"
+        }
       ],
     },
     {
